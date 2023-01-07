@@ -25,9 +25,9 @@ class _StartPageState extends State<StartPage> {
             },
             items: const [
               BottomNavigationBarItem(
-                  icon: Icon(Icons.view_list), label: 'News'),
+                  icon: Icon(Icons.view_agenda), label: 'News'),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.bookmark), label: 'News'),
+                  icon: Icon(Icons.favorite), label: 'News'),
             ],
           ),
           body: mainNavigation[pageIndex],
