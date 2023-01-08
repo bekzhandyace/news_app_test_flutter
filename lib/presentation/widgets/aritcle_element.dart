@@ -34,7 +34,7 @@ class ArticleElement extends StatelessWidget {
                 SizedBox(width: 20.w),
                 Column(children: [
                   SizedBox(
-                    height: 100.h,
+                    height: 110.h,
                     width: 170.w,
                     child: Column(children: [
                       Text(

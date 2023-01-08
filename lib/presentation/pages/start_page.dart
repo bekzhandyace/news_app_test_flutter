@@ -17,6 +17,7 @@ class _StartPageState extends State<StartPage> {
         length: 2,
         child: Scaffold(
           bottomNavigationBar: BottomNavigationBar(
+            
             currentIndex: pageIndex,
             onTap: (index) {
               pageIndex = index;
@@ -28,6 +29,7 @@ class _StartPageState extends State<StartPage> {
                   icon: Icon(Icons.view_list), label: 'News'),
               BottomNavigationBarItem(
                   icon: Icon(Icons.bookmark), label: 'News'),
+                  
             ],
           ),
           body: mainNavigation[pageIndex],
