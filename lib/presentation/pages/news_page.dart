@@ -10,7 +10,7 @@ class NewsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: Color.fromARGB(255, 56, 102, 139),
+          backgroundColor: Color.fromARGB(255, 37, 85, 125),
           title: const Text('Post news'),
           centerTitle: true,
           bottom: const TabBar(tabs: [
